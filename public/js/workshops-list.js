@@ -1,4 +1,6 @@
 import { fetchWorkshops } from './services/workshops.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function renderWorkshops( workshops ) {
     const workshopsListEl = document.getElementById( 'workshops-list' );
